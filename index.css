@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    border: 1px solid black;
+}
+
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.fa-solid.fa-dollar-sign {
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+
+}
+
+.fa-cc-visa,
+.fa-cc-mastercard,
+.fa-cc-amazon-pay,
+.fa-cc-paypal {
+    font-size: 20px;
+    background-color: white;
+
+}
+
+.form-group {
+    flex-grow: 1;
+}
+
+.form-group.mt-4 {
+    height: 40px;
+    width: 300px;
+    border-radius: 15px;
+    background-color: rgb(168, 166, 166);
+    display: flex;
+
+}
+
+.form-check-input:checked {
+    background-color: gray;
+    border-color: white;
+
+}
+
+.form-check.form-check-inline {
+    margin: auto;
+}
